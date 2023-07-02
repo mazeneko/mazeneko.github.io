@@ -11,6 +11,7 @@ import { LinksComponent } from './links/links.component';
 import { TitleComponent } from './title/title.component';
 import { LinkButtonComponent } from './links/link-button/link-button.component';
 import { NoLinkButtonComponent } from './links/no-link-button/no-link-button.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { NoLinkButtonComponent } from './links/no-link-button/no-link-button.com
     TitleComponent,
     LinksComponent,
     LinkButtonComponent,
-    NoLinkButtonComponent
+    NoLinkButtonComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule
