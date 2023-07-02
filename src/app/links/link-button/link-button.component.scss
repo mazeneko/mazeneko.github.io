@@ -1,0 +1,16 @@
+@import "../../../variables.scss";
+
+a {
+  display: block;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: 1px solid;
+  border-radius: 100vh;
+  transition: 0.1s;
+}
+
+a:hover {
+  color: $primary-color;
+  background-color: $accent-color;
+}
