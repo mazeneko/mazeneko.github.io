@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap');
+@import "./variables.scss";
 
 * {
   font-family: 'Kaisei Opti', serif;
+  color: $text-color;
+}
+
+body {
+  background-color: $background-color;
 }
 
 @layer components {
