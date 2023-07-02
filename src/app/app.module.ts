@@ -6,6 +6,7 @@ import { TwitterIconComponent } from './icon/twitter-icon/twitter-icon.component
 import { GithubIconComponent } from './icon/github-icon/github-icon.component';
 import { DiscordIconComponent } from './icon/discord-icon/discord-icon.component';
 import { MisskeyIconComponent } from './icon/misskey-icon/misskey-icon.component';
+import { RecycleIconComponent } from './icon/recycle-icon/recycle-icon.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { MisskeyIconComponent } from './icon/misskey-icon/misskey-icon.component
     TwitterIconComponent,
     GithubIconComponent,
     DiscordIconComponent,
-    MisskeyIconComponent
+    MisskeyIconComponent,
+    RecycleIconComponent
   ],
   imports: [
     BrowserModule
