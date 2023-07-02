@@ -2,8 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap');
-
-* {
-  font-family: 'Kaisei Opti', serif;
-}
+@import "default.scss"
