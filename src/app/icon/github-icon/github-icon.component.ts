@@ -1,12 +1,9 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-github-icon',
-  templateUrl: './github-icon.component.html'
+  templateUrl: './github-icon.component.html',
+  styleUrls: ['./github-icon.component.scss']
 })
 export class GithubIconComponent {
-  @Input()
-  width!: number
-  @Input()
-  height!: number
 }

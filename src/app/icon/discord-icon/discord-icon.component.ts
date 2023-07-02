@@ -1,12 +1,9 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-discord-icon',
-  templateUrl: './discord-icon.component.html'
+  templateUrl: './discord-icon.component.html',
+  styleUrls: ['./discord-icon.component.scss']
 })
 export class DiscordIconComponent {
-  @Input()
-  width!: number
-  @Input()
-  height!: number
 }

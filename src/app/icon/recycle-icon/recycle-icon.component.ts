@@ -1,12 +1,9 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-recycle-icon',
-  templateUrl: './recycle-icon.component.html'
+  templateUrl: './recycle-icon.component.html',
+  styleUrls: ['./recycle-icon.component.scss']
 })
 export class RecycleIconComponent {
-  @Input()
-  width!: string
-  @Input()
-  height!: string
 }
