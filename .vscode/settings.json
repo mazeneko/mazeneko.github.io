@@ -13,5 +13,8 @@
   },
   "[scss]": {
     "editor.defaultFormatter": "vscode.css-language-features"
-  }
+  },
+  "css.customData": [
+    ".vscode/tailwind.json"
+  ]
 }
