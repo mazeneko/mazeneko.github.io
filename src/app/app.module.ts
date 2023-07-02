@@ -12,6 +12,7 @@ import { TitleComponent } from './title/title.component';
 import { LinkButtonComponent } from './links/link-button/link-button.component';
 import { NoLinkButtonComponent } from './links/no-link-button/no-link-button.component';
 import { ProfileComponent } from './profile/profile.component';
+import { SteamIconComponent } from './icon/steam-icon/steam-icon.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ProfileComponent } from './profile/profile.component';
     LinksComponent,
     LinkButtonComponent,
     NoLinkButtonComponent,
-    ProfileComponent
+    ProfileComponent,
+    SteamIconComponent
   ],
   imports: [
     BrowserModule
