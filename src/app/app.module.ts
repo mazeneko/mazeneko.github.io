@@ -13,6 +13,8 @@ import { LinkButtonComponent } from './links/link-button/link-button.component';
 import { NoLinkButtonComponent } from './links/no-link-button/no-link-button.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SteamIconComponent } from './icon/steam-icon/steam-icon.component';
+import { InstagramIconComponent } from './icon/instagram-icon/instagram-icon.component';
+import { ThreadsIconComponent } from './icon/threads-icon/threads-icon.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { SteamIconComponent } from './icon/steam-icon/steam-icon.component';
     LinkButtonComponent,
     NoLinkButtonComponent,
     ProfileComponent,
-    SteamIconComponent
+    SteamIconComponent,
+    InstagramIconComponent,
+    ThreadsIconComponent
   ],
   imports: [
     BrowserModule
