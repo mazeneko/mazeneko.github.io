@@ -1,0 +1,6 @@
+<div class="flex flex-wrap gap-1">
+  <a *ngFor="let imageInfo of imageInfoList" [href]="imageInfo.illustrationLink" target="_blank"
+    rel="noopener noreferrer" class="flex flex-grow">
+    <img [src]="imageInfo.thumbnailLink" class="max-h-44 object-cover flex-grow border border-gray-500">
+  </a>
+</div>

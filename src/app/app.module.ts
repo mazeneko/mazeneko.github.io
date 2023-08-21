@@ -15,6 +15,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { SteamIconComponent } from './icon/steam-icon/steam-icon.component';
 import { InstagramIconComponent } from './icon/instagram-icon/instagram-icon.component';
 import { ThreadsIconComponent } from './icon/threads-icon/threads-icon.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { ThreadsIconComponent } from './icon/threads-icon/threads-icon.component
     ProfileComponent,
     SteamIconComponent,
     InstagramIconComponent,
-    ThreadsIconComponent
+    ThreadsIconComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule
